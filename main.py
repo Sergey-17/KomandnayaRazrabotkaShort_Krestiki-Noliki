@@ -18,6 +18,10 @@ class TicTacToe:
         """
         Инициализация главного окна и стартового состояния игры.
         """
+        self.status_label = None
+        self.restart_button = None
+        self.menu_button = None
+        self.winning_cells = None
         self.root = root
         self.root.title("Крестики-Нолики")
         self.root.configure(bg=BG_COLOR)
